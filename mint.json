@@ -1,51 +1,46 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Tuna Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0077B6", 
+    "light": "#00B4D8",   
+    "dark": "#03045E",  
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0077B6",
+      "to": "#00B4D8"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact",
+      "url": "mailto:abhi@opennote.me"
+    },
+    {
+      "name": "Issues",
+      "url": "https://github.com/abhi-arya1/tuna/issues"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "arrow": true,
+    "url": "https://tuna.opennote.me/dashboard"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Tuna Website",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://tuna.opennote.me"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/abhi-arya1/tuna"
     }
   ],
   "navigation": [
@@ -53,8 +48,15 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "installation"
+      ]
+    },
+    {
+      "group": "Quickstarts",
+      "pages": [
+        "quickstarts/mistral",
+        "quickstarts/gemma",
+        "quickstarts/llama"
       ]
     },
     {
@@ -69,23 +71,18 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Developer",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "developer/contributing",
+        "developer/as-a-pkg",
+        "developer/report-a-bug"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/opennote_tech",
+    "github": "https://github.com/abhi-arya1/tuna",
+    "linkedin": "https://www.linkedin.com/company/opennote",
+    "huggingface": "https://huggingface.co/opennote"
   }
 }

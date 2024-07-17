@@ -1,0 +1,71 @@
+---
+title: "Installation"
+description: "Let's install Tuna and get training in mere minutes."
+---
+
+## Install via PyPi/pip
+
+As seen on the Introduction page, Tuna is a PyPi package that can be installed with pip.
+
+> For more details on the package, take a look at https://pypi.org/project/tuna-cli/
+
+To install the latest release via pip, simply run:
+
+```bash terminal
+pip install tuna-cli
+```
+
+To install a specific version (for more information, see [Released Versions](https://pypi.org/project/tuna-cli/#history)) and run
+
+```bash terminal
+pip install tuna-cli==X.X.X
+```
+
+<Warning>
+  Note that no versions beyond the latest release are guaranteed to be supported
+  or work in any way, and you are at your own risk for installing anything
+  beyond the latest version.
+</Warning>
+
+## Build from Source
+
+Simply clone the repository at https://github.com/abhi-arya1/tuna, `cd` into it, and run `pip install .` or `pip install -e .`
+This will give you access to branch and development builds as long as your git tree is up to date. 
+
+
+Full commands: 
+
+```bash terminal 
+# in /path/to/your/directory
+git clone https://github.com/abhi-arya1/tuna.git
+cd /path/to/your/directory/tuna
+
+# either
+pip install -e . # for development / preview changes
+# OR 
+pip install . # for permanent package 
+```
+
+<Warning>
+A Python Virtual Environment is recommended for development and testing purposes to protect your other global packages.
+</Warning>
+
+
+<Card
+  title="Contribute to Tuna"
+  icon="code"
+  href="https://docs.tuna.opennote.me/developer/contributing"
+>
+  Help us make Tuna better by contributing to the open-source codebase!
+</Card>
+
+
+## Removal 
+
+To remove Tuna from your system, simply run:
+
+```bash terminal
+pip uninstall tuna-cli
+```
+
+To remove development mode installations, simply remove the cloned repository from your system.
