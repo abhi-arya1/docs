@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Tuna Documentation",
   "logo": {
-    "dark": "/logo/logo.png",
-    "light": "/logo/logo.png"
+    "dark": "/logo/logo-dark.png",
+    "light": "/logo/logo-light.png"
   },
   "favicon": "/favicon.svg",
     "colors": {
