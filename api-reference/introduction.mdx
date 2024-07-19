@@ -1,0 +1,30 @@
+---
+title: 'Introduction'
+description: 'Example section for showcasing API endpoints'
+icon: 'door-open'
+---
+
+<Note>
+  Tuna's API functionality is only available to [Pro and Enterprise](https://tuna.opennote.me/pricing) users at this time.
+</Note>
+
+## Welcome
+
+The Tuna Developer API allows for total automation of instance management, tasks, and more, all through basic HTTP requests, built around the REST specification. All endpoints are managed/found at https://api.tuna.opennote.me.
+
+## Authentication
+
+**All** API endpoints are authenticated using a Bearer header token, which can be created at the [Dashboard](https://tuna.opennote.me/dashboard) for Pro and Enterprise users.
+
+To authenticate, simply add the following header to your request:
+
+```bash
+curl -X [METHOD] https://api.tuna.opennote.me \
+     -H "Bearer: <api-key>" \
+     -H "Content-Type: application/json" \
+     -H ...
+     -d '{
+  "body": "items go here"
+  ...
+}'
+```

@@ -30,7 +30,12 @@
     "arrow": true,
     "url": "https://tuna.opennote.me/dashboard"
   },
-  "tabs": [],
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
     {
       "name": "Tuna Website",
@@ -60,14 +65,15 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Reference",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "reference/overview",
+        "reference/initialization",
+        "reference/notebooks",
+        "reference/datasets",
+        "reference/labs",
+        "reference/clouds",
+        "reference/models"
       ]
     },
     {
@@ -76,6 +82,20 @@
         "developer/contributing",
         "developer/as-a-pkg",
         "developer/report-a-bug"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],
